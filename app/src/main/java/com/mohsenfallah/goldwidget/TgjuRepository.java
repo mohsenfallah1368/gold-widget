@@ -40,9 +40,7 @@ public class TgjuRepository {
  private static double parse(String p)throws Exception{
   String h=strip(get(p));
   Matcher m=CURRENT.matcher(h);
-  if(!m.find()){
-   throw new IllegalStateException("Price not found: "+p);
-  }
+  if(!m.find()) throw new IllegalStateException("Price not found: "+p);
   return num(m.group(1));
  }
 
@@ -75,7 +73,7 @@ public class TgjuRepository {
    BufferedReader b=new BufferedReader(new InputStreamReader(c.getInputStream(),StandardCharsets.UTF_8));
    StringBuilder s=new StringBuilder();
    String l;
-   while((l=b.readLine())!=null)s.append(l).append('\\n');
+   while((l=b.readLine())!=null)s.append(l).append('\n');
    b.close();
    return s.toString();
   }finally{c.disconnect();}
