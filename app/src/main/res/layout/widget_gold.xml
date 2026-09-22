@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/widget_bg" android:padding="8dp">
-<TextView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="طلای ۱۸        طلای ۲۴        سکه امامی" android:textColor="#BDBDBD" android:textSize="11sp" android:gravity="center"/>
-<TextView android:id="@+id/val_gold18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_gold24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_coin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="13sp" android:gravity="center"/>
-<View android:layout_width="match_parent" android:layout_height="1dp" android:background="#303030"/>
-<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="دلار     تتر     اونس طلا     اونس نقره" android:textColor="#BDBDBD" android:textSize="11sp" android:gravity="center"/>
-<TextView android:id="@+id/val_dollar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_tether" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_ounce" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_silver" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="13sp" android:gravity="center"/>
-<View android:layout_width="match_parent" android:layout_height="1dp" android:background="#303030"/>
-<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قیمت واقعی ۱۸     قیمت واقعی ۲۴" android:textColor="#BDBDBD" android:textSize="11sp" android:gravity="center"/>
-<TextView android:id="@+id/val_real18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#D7B45A" android:textStyle="bold" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/val_real24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#D7B45A" android:textStyle="bold" android:textSize="13sp" android:gravity="center"/>
-<TextView android:id="@+id/txt_update" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="در حال دریافت اطلاعات…" android:textColor="#777777" android:textSize="9sp" android:gravity="center"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#171717"
+    android:padding="10dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="طلای ۱۸ عیار" android:textColor="#BDBDBD" android:textSize="10sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_gold18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" android:gravity="center"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="طلای ۲۴ عیار" android:textColor="#BDBDBD" android:textSize="10sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_gold24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" android:gravity="center"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="سکه امامی" android:textColor="#BDBDBD" android:textSize="10sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_coin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_dollar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_tether" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_ounce" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_silver" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#FFFFFF" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_real18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#D7B45A" android:textStyle="bold" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/val_real24" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="—" android:textColor="#D7B45A" android:textStyle="bold" android:textSize="12sp" android:gravity="center"/>
+    <TextView android:id="@+id/txt_update" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="در حال دریافت اطلاعات..." android:textColor="#777777" android:textSize="9sp" android:gravity="center"/>
 </LinearLayout>
